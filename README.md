@@ -2,7 +2,7 @@
 
 Docker image for Magento 1.x based on https://hub.docker.com/r/alexcheng/magento/
 
-Install Magento 1.9.3.4 for Development and Testing
+Install Magento 1.9.3.6 for Development and Testing
 
 git clone
 
