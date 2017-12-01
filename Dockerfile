@@ -1,7 +1,6 @@
 FROM occitech/magento:php5.5-apache
 
-#ENV MAGENTO_VERSION 1.9.3.4
-ENV MAGENTO_VERSION 1.9.3.6
+ENV MAGENTO_VERSION 1.9.3.7
 
 RUN cd /tmp && curl https://pe.terjon.es/dropbox/magento-$MAGENTO_VERSION.tar.gz -o $MAGENTO_VERSION.tar.gz && tar xvf $MAGENTO_VERSION.tar.gz && mv magento/* magento/.htaccess /var/www/htdocs
 
